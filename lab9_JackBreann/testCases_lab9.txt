@@ -1,0 +1,103 @@
+Test Start, End, and Wall Configurations for Lab9
+- Breann Thiessen and Jack Casey-Campbell
+
+1. Start at 0,0 and End at 9,9:
+
+int xStart = 0;
+int yStart = 0;
+int xFin = 9;
+int yFin = 9;
+
+int[][] walls = { {8,8}, 
+                  {6,8}, 
+                  {7,8} ,
+                  {9,8}
+                 };
+				 
+
+
+2. Chad is Boxed in:
+int xStart = 5;
+int yStart = 5;
+int xFin = 9;
+int yFin = 9;
+
+int[][] walls = { {3,4}, 
+                  {3,5}, 
+                  {3,6},
+                  {4,6},
+                  {5,6},
+                  {6,6},
+                  {6,5},
+                  {6,4},
+                  {4,4},
+                  {5,4}                
+                 };
+
+3. Only one spot in a wall to go through:
+int xStart = 0;
+int yStart = 5;
+int xFin = 8;
+int yFin = 6;
+
+int[][] walls = { {5,0},  
+                  {5,2},
+                  {5,3},
+                  {5,4},
+                  {5,5},
+                  {5,6},
+                  {5,7},
+                  {5,8},
+                  {5,9}
+                 }; 
+
+4. Random walls 1
+int xStart = 1;
+int yStart = ;
+int xFin = 9;
+int yFin = 8;
+int[][] walls = { {2, 5},
+                  {2, 6},
+                  {2, 7},
+                  {2, 8},
+                  {6, 2},
+                  {5, 0},
+                  {5, 1},
+                  {5, 2},
+                  {7, 2},
+                  {8, 2},
+                  {9, 2},
+                  {3, 5}
+                 };
+
+5. Random walls 2
+int xStart = 1;
+int yStart = 1;
+int xFin = 9;
+int yFin = 8;
+int[][] walls = { {2, 5},
+                  {2, 3},
+                  {2, 4},
+                  {2, 5},
+                  {2, 6},
+                  {2, 7},
+                  {2, 8},
+                  {2, 2},
+                  {3, 3},
+                  {4, 3},
+                  {5 ,3},
+                  {6, 3},
+                  {7, 3},
+                  {8, 3},
+                  {3, 4},
+                  {4, 5},
+                  {5, 6},
+                  {6, 7},
+                  {5, 7},
+                  {4, 7}
+                 };
+
+
+
+
+
